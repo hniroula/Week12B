@@ -26,3 +26,13 @@ def UpdateString( string1, string2, n):
     my_list[n]=string2
     return ''.join(my_list)
 #printOutput(UpdateString("Hello World", "a", 3))
+
+####Function 4    
+
+def FindWordCount(some_list, string):    
+    number=0
+    for word in some_list:
+        number += word.count(string)
+    return number
+#a=Loadfile('test.txt')
+#printOutput((FindWordCount(a, 'I'))) # I have file saved as 'test'. 'I' occurs once.
