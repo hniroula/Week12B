@@ -19,4 +19,10 @@ def Loadfile(somefile):
         my_list.append(ln[0:len(ln)-1])
     return my_list
 #printOutput(Loadfile('test.txt') )       # I have file test as text saved in same loaction.
+####Function 3 [UPDATESTRING]
 
+def UpdateString( string1, string2, n):
+    my_list= list(string1)
+    my_list[n]=string2
+    return ''.join(my_list)
+#printOutput(UpdateString("Hello World", "a", 3))
