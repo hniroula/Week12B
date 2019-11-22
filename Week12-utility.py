@@ -57,3 +57,16 @@ def ScoreFinder(list_players, list_scores, str_name):
 #players = ["Mary", "Cody", "Joe", "Jill", "Xai", "Bodo"] 
 #scores = [5, 8, 10, 6, 10, 4]                    
 #ScoreFinder(players,scores,'Jill')
+
+
+
+#### Function 6
+def Union (listA, listB):
+    
+    for i in range(len(listB)):
+        if listB[i] not in listA:            
+            listA.append(listB[i])
+    return listA
+#scores=[10, 6, 4, "Melvin", "Martian"]
+#players2 = ["Melvin", "Martian", "Baka", "Xai", "Cody"]
+#print('OUTPUT ',Union(scores,players2))
