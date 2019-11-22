@@ -83,3 +83,18 @@ def Intersection(listA, listB):
 #players2=["Melvin", "Martian", "Baka", "Xai", "Cody"]
 #print('OUTPUT ',Intersection(players,players2))
 
+
+
+#### Function 8
+#list1=["Melvin", "Martian", "Baka", "Xai", "Cody"]    
+#list2 = ["Melvin", "Martian", "Baka", "Nick", 'Harry']# This lists are testing purposes
+
+
+def NotIn (list1, list2):
+    new_list =[]
+    for i in range(len( list1)):
+        if list1[i] not in list2:
+            new_list.append( list1[i])
+    return new_list
+#print('OUTPUT ',NotIn(list1, list2))
+
