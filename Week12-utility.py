@@ -36,3 +36,24 @@ def FindWordCount(some_list, string):
     return number
 #a=Loadfile('test.txt')
 #printOutput((FindWordCount(a, 'I'))) # I have file saved as 'test'. 'I' occurs once.
+
+####Function 5  
+
+def ScoreFinder(list_players, list_scores, str_name):
+    upper= str_name.upper()        
+    for i in range(len(list_players)):
+         
+        if list_players[i].upper()==upper:
+            score=list_scores[i]
+            print('OUTPUT', list_players[i], 'got a score of', score)
+            return   
+        
+    print('OUTPUT player not found ')
+              
+     
+     
+      
+        
+#players = ["Mary", "Cody", "Joe", "Jill", "Xai", "Bodo"] 
+#scores = [5, 8, 10, 6, 10, 4]                    
+#ScoreFinder(players,scores,'Jill')
