@@ -70,3 +70,16 @@ def Union (listA, listB):
 #scores=[10, 6, 4, "Melvin", "Martian"]
 #players2 = ["Melvin", "Martian", "Baka", "Xai", "Cody"]
 #print('OUTPUT ',Union(scores,players2))
+
+
+####Function 7
+def Intersection(listA, listB):
+    new_list=[]
+    for i in range(len(listA)):
+        if listA[i] in listB:
+            new_list.append(listA[i])
+    return new_list
+#players=["Mary", "Cody", "Joe", "Jill", "Xai", "Bodo"]
+#players2=["Melvin", "Martian", "Baka", "Xai", "Cody"]
+#print('OUTPUT ',Intersection(players,players2))
+
